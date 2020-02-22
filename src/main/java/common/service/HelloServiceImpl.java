@@ -9,7 +9,7 @@ public class HelloServiceImpl implements HelloService {
 
     public String sayHello(String name) {
 
-        return "Hello";
+        return "Hello, " + name;
     }
 
     public Person getPerson(String name) {
